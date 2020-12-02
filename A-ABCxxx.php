@@ -1,3 +1,3 @@
 <?php
-fscanf(STDIN, "%d", $n);
-echo 'ABC' . $n;
+fscanf(STDIN, "%d", $b);
+echo 'ABC' . $b;
