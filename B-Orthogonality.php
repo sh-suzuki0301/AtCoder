@@ -34,5 +34,4 @@ $sum = 0;
 for ($i = 0; $i < $n; $i++) {
     $sum += $a[$i] * $b[$i];
 }
-
 echo $sum === 0 ? "Yes" : "No";
