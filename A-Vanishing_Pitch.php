@@ -1,6 +1,6 @@
 <?php
 fscanf(STDIN, "%d %d %d %d", $v, $t, $s, $d);
-$arrival = $d / $t;
+$arrival = $d / $v;
 if ($arrival >= $t && $arrival <= $s) {
     echo "No";
 } else {
