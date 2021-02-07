@@ -40,4 +40,4 @@ foreach ($list as $v) {
     $ans += $v - $min;
 }
 
-echo $ans;
+echo $ans.PHP_EOL;
