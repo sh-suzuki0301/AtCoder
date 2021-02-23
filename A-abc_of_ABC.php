@@ -9,4 +9,4 @@
 // 出力
 // S を abc を並び替えて作ることができるなら Yes を、そうでないなら No を出力せよ。
 fscanf(STDIN, "%s", $s);
-echo strpos($s, 'a') !== false  && strpos($s, 'b') !== false && strpos($s, 'c') !== false? 'Yes' : 'No';
+echo strpos($s, 'a') !== false  && strpos($s, 'b') !== false && strpos($s, 'c') !== false ? 'Yes' : 'No';
