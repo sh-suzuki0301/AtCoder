@@ -12,4 +12,5 @@ X は整数である。
  */
 
 fscanf(STDIN, "%d", $x);
+
 echo ($x >= 30) ? 'Yes' : 'No';
