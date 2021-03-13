@@ -1,5 +1,6 @@
 <?php
 fscanf(STDIN, "%s %s", $x, $y);
+
 $hex = array(
     'A' => '10',
     'B' => '11',
