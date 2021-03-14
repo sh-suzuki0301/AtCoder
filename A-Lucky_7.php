@@ -1,8 +1,9 @@
 <?php
 fscanf(STDIN, "%d", $a);
 $res = substr_count($a, 7);
+
 if ($res >= 1) {
-    echo('Yes').PHP_EOL;
+    echo('Yes');
 } else {
-    echo('No').PHP_EOL;
+    echo('No');
 }
